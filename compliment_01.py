@@ -18,7 +18,16 @@
 
 
 
+def main():
+    answer = input("Would you like a compliment? ")
+    compliment_generator(answer)
 
+def compliment_generator(answer):
+    if (answer == 'yes'):
+        print("You have wonderful eyes.")
+    print("Thank you for playing.")
+
+main()
 
 
 
@@ -67,15 +76,11 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
-
+1; it is making my brain numb.
 
 
 2. What was the hardest part of this lab?
 
-
-
-
-
-
+Answering these questions.
 
 '''
